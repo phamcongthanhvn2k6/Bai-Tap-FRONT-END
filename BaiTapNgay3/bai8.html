@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display:inline-block;
+            width:15%;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name">Họ Và Tên:</label>
+        <input type="text" id="name" placeholder="Họ Và Tên">
+        <br>
+        <label for="date">Ngày sinh:</label>
+        <input type="date" id="date" name="date">
+        <br>
+        <label for="gioitinh">Giới Tính:</label>
+        <input type="radio" id="nam" name="gioitinh" value="nam">Nam
+        <input type="radio" id="nu" name="gioitinh" value="nu">Nữ
+        <br>
+        <label for="socancuoccongdan">Số Căn Cước Công dân:</label>
+        <input type="text" id="socancuoccongdan" placeholder="Số Căn Cước Công dân">
+        <br>
+        <label for="ngaycap">Ngày Cấp:</label>
+        <input type="date" id="ngaycap" name="ngaycap">
+        <br>
+        <label for="noicap">Nơi Cấp:</label>
+        <input type="text" id="noicap" placeholder="Nơi Cấp">
+        <br>
+        <label for="sodienthoai">Số Điện Thoại:</label>
+        <input type="tel" id="sodienthoai" placeholder="Số Điện Thoại">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Email">
+        <br>
+        <label for="diachithuongtru">Địa Chỉ Thường Trú:</label>
+        <textarea id="diachithuongtru" name="diachithuongtru" rows="4" cols="50"></textarea>
+        <br>
+        <label for="diachitamtru">Địa Chỉ Tạm Trú:</label>
+        <textarea id="diachitamtru" name="diachitamtru" rows="4" cols="50"></textarea>
+        <br>
+        <label for="loaicancuoccongdan">Loại Căn Cước Công Dân:</label>
+        <input type="radio" id="loaicancuoccongdan"  name="Loại Căn Cước Công Dân" value="moi">Căn Cước Công Dân Mới
+        <input type="radio" id="loaicancuoccongdan"  name="Loại Căn Cước Công Dân" value="cu">Căn Cước Công Dân Cũ
+        <br>
+        <label for="dân tộc">Dân Tộc:</label>
+        <input type="text" id="dantoc" placeholder="Dân Tộc">
+        <br>
+        <label for="tongiao">Tôn Giáo:</label>
+        <input type="text" id="tongiao" placeholder="Tôn Giáo">
+        <br>
+        <label for="quoctich">Quốc Tịch:</label>
+        <input type="text" id="quoctich" value="Việt Nam" only="VietNam">
+        <br>
+        <label for="hotenchame">Họ Tên Cha Mẹ:</label>
+        <input type="text" id="hotenchame" placeholder="Họ Tên Cha Mẹ">
+        <br>
+        <label for="socccdcuachame">Số CMND/CCCD của Cha Mẹ:</label>
+        <input type="text" id="socccdcuachame" placeholder="Số CMND/CCCD của Cha Mẹ">
+        <br>
+        <label for="Tinhthanhpho">Tỉnh/Thành Phố:</label>
+        <select>
+            <option value="0">Chọn Tỉnh/Thành Phố</option>
+            <option value="1">Hà Nội</option>
+            <option value="2">Hồ Chí Minh</option>
+            <option value="3">Đà Nẵng</option>
+            <option value="4">Hải Phòng</option>
+            <option value="5">Cần Thơ</option>
+            <option value="6">An Giang</option>
+            <option value="7">Bà Rịa - Vũng Tàu</option>
+            <option value="8">Bắc Giang</option>
+            <option value="9">Bắc Kạn</option>
+            <option value="10">Bạc Liêu</option>
+            <option value="11">Bắc Ninh</option>
+            <option value="12">Bến Tre</option> 
+        </select>
+        <br>
+        <button>Gửi Thông Tin</button>
+    </form>
+</body>
+</html>

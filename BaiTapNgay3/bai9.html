@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display:inline-block;
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name">Họ Và Tên</label>
+        <input type="text" id="name" placeholder="Họ Và Tên">
+        <br>
+        <label for="date">Ngày Sinh:</label>
+        <input type="date" id="date" name="date">
+        <br>
+        <label for="gioitinh">Giới Tính:</label>
+        <input type="radio" id="nam" name="gioitinh" value="nam">Nam
+        <input type="radio" id="nu" name="gioitinh" value="nu">Nữ
+        <br>
+        <label for="sdt">Số Điện Thoại</label>
+        <input type="tel" id="sdt" placeholder="Số Điện Thoại">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Email">
+        <br>
+        <label for="diachi">Địa Chỉ</label>
+        <textarea id="diachi" name="diachi" rows="4" cols="50"></textarea>
+        <br>
+        <label for="vaitro">Voi trò trong nhóm:</label>
+        <select id="vaitro" name="vaitro">
+            <option value="Nhóm trưởng">Nhóm Trưởng</option>
+            <option value="Nhóm Phó">Nhóm Phó</option>
+            <option value="Thành Viên">Thành Viên</option>
+        </select>
+        <br>
+        <label for="sothich">Sở Thích:</label>
+        <input type="text" id="sothich" placeholder="Sở Thích">
+        <br>
+        <label for="Kỹ Năng">Kỹ Năng:</label>
+        <textarea id="kynang" name="kynang" rows="4" cols="50"></textarea>
+        <br>
+        <label for="thoigianranh">Thời Gian Rảnh:</label>
+        <input type="checkbox" id="thoigianranh" name="thoigianranh" value="Sáng">Sáng
+        <input type="checkbox" id="thoigianranh" name="thoigianranh" value="Chiều">Chiều
+        <input type="checkbox" id="thoigianranh" name="thoigianranh" value="Tối">Tối
+        <br>
+        <label for="lydodangky">Lý Do tham gia nhóm:</label>
+        <textarea id="lydodangky" name="lydodangky" rows="4" cols="50"></textarea>
+        <br>
+        <label for="Màu Sắc">Màu Sắc Yêu Thích:</label>
+        <input type="color" id="mausac" name="mausac">
+        <br>
+        <label for="dangkynhanbantin">Đăng Ký Nhận bản Tin:</label>
+        <input type="checkbox" id="dangkynhanbantin" name="dangkynhanbantin" value="Có">Có
+        <input type="checkbox" id="dangkynhanbantin" name="dangkynhanbantin" value="Không">Không
+        <br>
+        <label for="Nhanthongbaoquaemail">Nhận Thông Báo qua email:</label>
+        <input type="radio" id="nhanthongbaoquaemail" name="nhanthongbaoquaemail" value="Email">Email
+        <input type="radio" id="nhanthongbaoquaemail" name="nhanthongbaoquaemail" value="SMS">SMS
+        <br>
+        <button>Đăng Kí Thành ViênViên</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display:inline-block;
+            width: 15%;
+        }
+    </style>
+    
+</head>
+<body>
+    <form> 
+    <label for="name">Họ Và Tên:</label>
+    <input type="text" id="name" name="name" placeholder="Họ Và Tên">
+    <br>   
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Email">
+    <br>
+    <label for="Date" >Ngày Sinh:</label>
+    <input type="datetime-local" id="date" name="date">
+    <br>
+    <label for="gioitinh">Giới Tính:</label>
+    <input type="radio" id="nam" name="gioitinh" value="Nam">Nam
+    <input type="radio" id="nu" name="gioitinh" value="Nu">Nữ
+    <br>
+    <label for="Sodienthoai">Số Điện Thoại:</label>
+    <input type="tel" id="sodienthoai" name="sodienthoai" placeholder="Số Điện Thoại">
+    <br>
+    <label for="chuyennganh">Chuyên Ngành:</label>
+    <input type="text" id="chuyennganh" name="chuyennganh" placeholder="Chuyên Ngành">
+    <br>
+    <label for="namnhaphoc">Năm Nhập Học:</label>
+    <input type="number" id="namnhaphoc" name="namnhaphoc" placeholder="Năm Nhập Học">
+    <br>
+    <label for="diemGpA">Điểm GPA:</label>
+    <input type="number" id="diemGpA" name="diemGpA" placeholder="Điểm GPA">
+    <br>
+    <label for="Diachi">Địa Chỉ:</label>
+    <textarea id="diachi" name="diachi" row="7" col="60"></textarea>
+    <br>
+    <label for="lophoc">Lớp Học</label>
+    <select>
+        <option value="Lop1">Lớp 1</option>
+        <option value="Lop2">Lớp 2</option>
+        <option value="Lop3">Lớp 3</option>
+        <option value="Lop4">Lớp 4</option>
+        <option value="Lop5">Lớp 5</option>
+        <option value="Lop6">Lớp 6</option>
+        <option value="Lop7">Lớp 7</option>
+        <option value="Lop8">Lớp 8</option>
+        <option value="Lop9">Lớp 9</option>
+        <option value="Lop10">Lớp 10</option>
+        <option value="Lop11">Lớp 11</option>
+        <option value="Lop12">Lớp 12</option>
+    </select>
+    <br>
+    <label for="ngaydangkyhoc">Ngày Đăng Ký Học: </label>
+    <input type="datetime-local" id="ngaydangkyhoc" name="ngaydangkyhoc">
+    <br>
+    <button>Gửi Thông tin</button>
+    </form>
+</body>
+</html>
