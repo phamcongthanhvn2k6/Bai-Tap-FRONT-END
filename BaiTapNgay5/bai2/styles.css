@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+}
+
+.large-text {
+    font-size: 50px; /* Thay đổi giá trị này để điều chỉnh kích thước chữ */
+}
+
+img {
+    margin: 0; /* Loại bỏ margin của ảnh */
+}
+
+.description {
+    color: green;
+    text-align: left;
+    padding: 20px;
+    text-decoration: underline dotted cyan;
+}
