@@ -1,0 +1,40 @@
+.container {  
+    width: 30%;
+    font-family: Arial, sans-serif;  
+  }  
+  
+  .header {  
+    font-size: 14px;  
+    font-weight: bold;  
+    color: #e67e22; /* Màu cam */  
+    margin-bottom: 10px;  
+  }  
+  
+  .image-container {  
+    position: relative;  
+  }  
+  
+  .image-container img {  
+    width: 100%;  
+    display: block;  
+  }  
+  
+  .image-text {  
+    position: absolute;  
+    bottom: 0;  
+    left: 0;  
+    color: white;  
+    padding: 10px;  
+    background: rgba(0, 0, 0, 0.7); /* Nền đen mờ */  
+    font-size: 16px;  
+  }  
+  
+  .news-item {  
+
+    font-size: 14px;  
+    margin-top: 10px;  
+  }  
+
+  body{
+    width: 30%;
+  }

@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif; /* Thiết lập kiểu chữ là Arial */
+    margin: 0; /* Loại bỏ khoảng cách mặc định */
+    padding: 0; /* Loại bỏ khoảng cách mặc định */
+    background-color: #f4f4f4; /* Thiết lập màu nền xám nhạt */
+}
+
+.container {
+    width: 80%; /* Đặt độ rộng là 80% chiều rộng trang */
+    margin: 0 auto; /* Căn giữa phần tử theo chiều ngang */
+    padding: 20px; /* Thêm khoảng trống bên trong phần tử */
+}
+
+h1 {
+    text-align: left; /* Căn chỉnh tiêu đề sang trái */
+    color: #333; /* Thiết lập màu chữ là màu xám đậm */
+    border-bottom: 2px solid #e74c3c; /* Thêm đường kẻ đỏ dưới tiêu đề */
+    padding-bottom: 10px; /* Thêm khoảng trống dưới tiêu đề */
+    display: inline-block; /* Đặt tiêu đề hiển thị dưới dạng khối nội tuyến */
+}
+
+.content-table {
+    width: 100%; /* Thiết lập độ rộng của bảng là 100% */
+    border-collapse: collapse; /* Loại bỏ khoảng trống giữa các đường viền ô */
+}
+
+.content-table td {
+    padding: 20px; /* Thêm khoảng trống bên trong các ô của bảng */
+    vertical-align: top; /* Căn chỉnh nội dung của các ô theo chiều dọc */
+}
+
+.card {
+    background: #fff; /* Thiết lập màu nền của phần tử là màu trắng */
+    border: 1px solid #ddd; /* Thêm viền xám nhạt */
+    border-radius: 5px; /* Bo tròn các góc của phần tử */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ nhẹ xung quanh phần tử */
+    text-align: center; /* Căn giữa nội dung của phần tử */
+}
+
+.card img {
+    width: 100%; /* Thiết lập chiều rộng của hình ảnh là 100% */
+    height: auto; /* Tự động điều chỉnh chiều cao để giữ tỷ lệ hình ảnh */
+    border-radius: 5px; /* Bo tròn các góc của hình ảnh */
+}
+
+.card h2 {
+    color: #333; /* Thiết lập màu chữ của tiêu đề phụ là màu xám đậm */
+    margin-top: 10px; /* Thêm khoảng cách trên tiêu đề phụ */
+}
+
+.card p {
+    color: #666; /* Thiết lập màu chữ của đoạn văn bản là màu xám nhạt */
+    line-height: 1.6; /* Thiết lập chiều cao dòng của đoạn văn bản là 1.6 lần kích thước chữ */
+}
+
+button {
+    display: inline-block; /* Đặt nút bấm hiển thị dưới dạng khối nội tuyến */
+    padding: 10px 20px; /* Thêm khoảng trống bên trong nút bấm */
+    margin-top: 10px; /* Thêm khoảng cách trên nút bấm */
+    border: 1px solid #e74c3c; /* Thêm viền đỏ cho nút bấm */
+    background: none; /* Không có màu nền cho nút bấm */
+    color: #e74c3c; /* Thiết lập màu chữ của nút bấm là màu đỏ */
+    border-radius: 5px; /* Bo tròn các góc của nút bấm */
+    cursor: pointer; /* Thay đổi con trỏ chuột thành con trỏ chỉ tay khi di chuột qua nút bấm */
+    transition: background 0.3s, color 0.3s; /* Thêm hiệu ứng chuyển màu cho nền và màu chữ khi di chuột qua */
+}
+
+button:hover {
+    background: #e74c3c; /* Thay đổi màu nền của nút bấm khi di chuột qua */
+    color: #fff; /* Thay đổi màu chữ của nút bấm khi di chuột qua */
+}

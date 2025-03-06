@@ -1,0 +1,36 @@
+/* Đặt kiểu cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif; /* Đặt font chữ */
+    display: flex; /* Sử dụng flexbox để căn giữa nội dung */
+    justify-content: center; /* Căn giữa theo trục ngang */
+    align-items: center; /* Căn giữa theo trục dọc */
+    height: 100vh; /* Chiều cao toàn màn hình */
+    margin: 0; /* Xóa margin mặc định */
+    background-color: #f1f1f1; /* Màu nền */
+}
+
+/* Đặt kiểu cho container của ô tìm kiếm */
+.search-container {
+    display: flex; /* Sử dụng flexbox để sắp xếp nội dung theo hàng ngang */
+    align-items: center; /* Căn giữa theo trục dọc */
+    background-color: white; /* Màu nền trắng */
+    border: 1px solid #ccc; /* Đường viền */
+    border-radius: 24px; /* Bo góc */
+    padding: 10px; /* Khoảng đệm bên trong */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+}
+
+/* Đặt kiểu cho các biểu tượng */
+.search-icon, .microphone-icon, .lens-icon {
+    width: 24px; /* Chiều rộng biểu tượng */
+    height: 24px; /* Chiều cao biểu tượng */
+    margin: 0 10px; /* Khoảng cách giữa các biểu tượng */
+}
+
+/* Đặt kiểu cho ô nhập liệu */
+.search-input {
+    border: none; /* Xóa viền mặc định */
+    outline: none; /* Xóa viền ngoài khi focus */
+    flex-grow: 1; /* Chiếm hết không gian còn lại */
+    font-size: 16px; /* Kích thước font chữ */
+}

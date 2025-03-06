@@ -1,0 +1,30 @@
+table {  
+    width: 100%; 
+    border-collapse: collapse; 
+  }  
+  
+  td {  
+    padding: 10px;  
+    text-align: center; 
+    border: 1px solid #eee;
+  }
+  
+  .card {  
+    width: 200px;  
+    padding: 20px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    text-align: center;  
+    background-color: #f9f9f9;  
+    margin: auto;  
+  }  
+  
+  .card-title {  
+    color: #a9294e;  
+    font-size: 1.2em;  
+    margin-bottom: 10px;  
+  }  
+  
+  .card-description {  
+    font-size: 0.9em;  
+  }  
