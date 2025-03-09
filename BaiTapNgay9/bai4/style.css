@@ -1,0 +1,51 @@
+body{
+    margin: 4;
+    padding:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 10px;
+}
+
+.header{
+    display:flex;
+    justify-content: left;
+    background-color: rgb(64, 0, 254);
+    color: white;
+    padding:20px;
+    flex-shrink: 0;
+}
+
+.main{
+    display:flex;
+    flex: 1;
+    gap: 10px;
+}
+
+.sidebar{
+    background-color: green;
+    color: white;
+    width: 25%;
+    padding: 20px;
+}
+
+.content{
+    background-color: red;
+    color: white;
+    width: 75%;
+    padding: 20px;
+}
+
+.footer{
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    flex-shrink: 0
+}
+
+
+

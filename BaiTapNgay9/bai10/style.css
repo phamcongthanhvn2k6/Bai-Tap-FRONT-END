@@ -1,0 +1,128 @@
+/* General Styles */  
+body {  
+    font-family: Arial, sans-serif; /* Chọn font chữ Arial hoặc sans-serif */  
+    margin: 0; /* Loại bỏ margin mặc định */  
+    background-color: #f9f9f9; /* Đặt màu nền */  
+    color: #333; /* Đặt màu chữ */  
+}  
+
+.container {  
+    width: 90%; /* Đặt chiều rộng của container là 90% */  
+    margin: 0 auto; /* Căn giữa container */  
+}  
+
+/* Header Styles */  
+.header {  
+    background-color: #3498db; /* Đặt màu nền cho header */  
+    color: white; /* Đặt màu chữ trong header là màu trắng */  
+    padding: 20px; /* Đặt padding cho header */  
+    display: flex; /* Sử dụng flexbox để căn chỉnh các phần tử */  
+    justify-content: space-between; /* Đặt khoảng cách giữa các phần tử là lớn nhất có thể */  
+    align-items: center; /* Căn giữa các phần tử theo chiều dọc */  
+}  
+
+.header-left h1 {  
+    margin: 0; /* Loại bỏ margin mặc định của tiêu đề */  
+    font-size: 24px; /* Đặt kích thước font chữ cho tiêu đề */  
+}  
+
+.header-right {  
+    display: flex; /* Sử dụng flexbox để căn chỉnh các phần tử */  
+    align-items: center; /* Căn giữa các phần tử theo chiều dọc */  
+}  
+
+.header-right a {  
+    color: white; /* Đặt màu chữ cho liên kết là màu trắng */  
+    text-decoration: none; /* Loại bỏ gạch chân mặc định của liên kết */  
+    margin-right: 20px; /* Đặt margin bên phải cho liên kết */  
+}  
+
+.header-right i {  
+    margin-left: 10px; /* Đặt margin bên trái cho biểu tượng */  
+    margin-right: 10px; /* Đặt margin bên phải cho biểu tượng */  
+    font-size: 1.2em; /* Đặt kích thước font chữ cho biểu tượng */  
+}  
+
+.profile-img {  
+    width: 30px; /* Đặt chiều rộng cho hình ảnh hồ sơ */  
+    height: 30px; /* Đặt chiều cao cho hình ảnh hồ sơ */  
+    border-radius: 50%; /* Bo tròn hình ảnh hồ sơ */  
+    margin-right: 20px; /* Đặt margin bên phải cho hình ảnh hồ sơ */  
+}  
+
+.web-setup-button {  
+    background-color: transparent; /* Đặt màu nền trong suốt */  
+    color: white; /* Đặt màu chữ là màu trắng */  
+    border: 1px solid white; /* Đặt đường viền màu trắng */  
+    padding: 5px 10px; /* Đặt padding */  
+    border-radius: 5px; /* Bo tròn góc */  
+    cursor: pointer; /* Thay đổi con trỏ khi di chuột qua */  
+}  
+
+/* Tabs Styles */  
+.tabs {  
+    display: flex; /* Sử dụng flexbox để căn chỉnh các phần tử */  
+    background-color: white; /* Đặt màu nền cho các tab */  
+    padding: 10px 20px; /* Đặt padding cho các tab */  
+    border-bottom: 1px solid #ddd; /* Đặt đường viền dưới */  
+}  
+
+.tab {  
+    color: #777; /* Đặt màu chữ cho các tab */  
+    padding: 10px 20px; /* Đặt padding cho các tab */  
+    text-decoration: none; /* Loại bỏ gạch chân mặc định của liên kết */  
+    border-bottom: 2px solid transparent; /* Đặt đường viền dưới trong suốt */  
+}  
+
+.tab.active {  
+    color: #333; /* Đặt màu chữ cho tab đang được chọn */  
+    border-bottom: 2px solid #3498db; /* Đặt đường viền dưới cho tab đang được chọn */  
+}  
+
+/* Content Styles */  
+.content {  
+    padding: 20px; /* Đặt padding cho nội dung */  
+}  
+
+.search-bar {  
+    background-color: white; /* Đặt màu nền cho thanh tìm kiếm */  
+    padding: 15px; /* Đặt padding cho thanh tìm kiếm */  
+    border-radius: 5px; /* Bo tròn góc */  
+    display: flex; /* Sử dụng flexbox để căn chỉnh các phần tử */  
+    align-items: center; /* Căn giữa các phần tử theo chiều dọc */  
+    border: 1px solid #ddd; /* Đặt đường viền */  
+}  
+
+.search-bar i {  
+    color: #777; /* Đặt màu chữ cho biểu tượng */  
+    margin-right: 10px; /* Đặt margin bên phải cho biểu tượng */  
+}  
+
+.search-bar input[type="text"] {  
+    border: none; /* Loại bỏ đường viền */  
+    padding: 10px; /* Đặt padding */  
+    width: 70%; /* Đặt chiều rộng là 70% */  
+    outline: none; /* Loại bỏ đường viền khi được chọn */  
+    color: #555; /* Đặt màu chữ */  
+}  
+
+.add-user-button {  
+    background-color: #3498db; /* Đặt màu nền cho nút "Add user" */  
+    color: white; /* Đặt màu chữ là màu trắng */  
+    border: none; /* Loại bỏ đường viền */  
+    padding: 10px 15px; /* Đặt padding */  
+    border-radius: 5px; /* Bo tròn góc */  
+    cursor: pointer; /* Thay đổi con trỏ khi di chuột qua */  
+    margin-left: auto; /* Đẩy nút sang bên phải */  
+    margin-right: 10px; /* Đặt margin bên phải */  
+}  
+
+.no-users {  
+    background-color: white; /* Đặt màu nền */  
+    padding: 20px; /* Đặt padding */  
+    border-radius: 5px; /* Bo tròn góc */  
+    text-align: center; /* Căn giữa văn bản */  
+    color: #777; /* Đặt màu chữ */  
+    margin-top: 20px; /* Đặt margin phía trên */  
+    border: 1px solid #ddd; /* Đặt đường viền */  
+}  

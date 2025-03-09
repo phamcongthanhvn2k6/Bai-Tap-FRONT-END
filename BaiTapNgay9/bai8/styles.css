@@ -1,0 +1,88 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    line-height: 1.6;  
+    color: #333;  
+}  
+
+header {  
+    background-color: #333;  
+    color: #fff;  
+    padding: 1rem 0;  
+    text-align: center;  
+}  
+
+header h1 {  
+    margin: 0;  
+}  
+
+nav ul {  
+    padding: 0;  
+    list-style: none;  
+}  
+
+nav ul li {  
+    display: inline;  
+    margin: 0 1rem;  
+}  
+
+nav a {  
+    color: #fff;  
+    text-decoration: none;  
+}  
+
+.hero {  
+    background-color: #f4f4f4;  
+    padding: 2rem;  
+    text-align: center;  
+}  
+
+.button {  
+    display: inline-block;  
+    background-color: #333;  
+    color: #fff;  
+    padding: 0.5rem 1rem;  
+    text-decoration: none;  
+    border-radius: 5px;  
+    margin-top: 1rem;  
+}  
+
+.featured-work {  
+    padding: 2rem;  
+    text-align: center;  
+}  
+
+.projects {  
+    display: flex;  
+    justify-content: center;  
+    gap: 1rem;  
+    flex-wrap: wrap;  
+}  
+
+.project {  
+    text-align: center;  
+}  
+
+.image-placeholder {  
+    width: 150px;  
+    height: 150px;  
+    background-color: #ddd;  
+    margin-bottom: 0.5rem;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    color: #888;  
+}  
+
+.about-me {  
+    background-color: #f4f4f4;  
+    padding: 2rem;  
+}  
+
+footer {  
+    background-color: #333;  
+    color: #fff;  
+    text-align: center;  
+    padding: 1rem 0;  
+}  

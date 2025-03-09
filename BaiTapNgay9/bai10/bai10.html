@@ -1,0 +1,68 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Authentication</title>  
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    <!-- Liên kết đến Font Awesome để sử dụng các biểu tượng -->  
+</head>  
+<body>  
+    <div class="container">  
+        <!-- Vùng chứa chính để giới hạn chiều rộng và căn giữa nội dung -->  
+        <div class="header">  
+            <!-- Header chứa tiêu đề và các biểu tượng bên phải -->  
+            <div class="header-left">  
+                <!-- Phần bên trái của header, chứa tiêu đề -->  
+                <h1>Authentication</h1>  
+            </div>  
+            <div class="header-right">  
+                <!-- Phần bên phải của header, chứa các liên kết và biểu tượng -->
+                <a href="#">Go to docs</a>  
+                <!-- Liên kết "Go to docs" -->  
+                <i class="fa-regular fa-bell"></i>  
+                <!-- Biểu tượng thông báo -->  
+                <img src="1.jpg" alt="Profile" class="profile-img">  
+                <!-- Hình ảnh hồ sơ -->  
+                <button class="web-setup-button">Web setup</button>  
+                <!-- Nút "Web setup" -->  
+                <i class="fa-regular fa-circle-question"></i>  
+                <!-- Biểu tượng trợ giúp -->  
+            </div>  
+        </div>  
+
+        <div class="tabs">  
+            <!-- Các tab điều hướng -->  
+            <a href="#" class="tab active">Users</a>  
+            <!-- Tab "Users", được đánh dấu là "active" -->  
+            <a href="#" class="tab">Sign-in method</a>  
+            <!-- Tab "Sign-in method" -->  
+            <a href="#" class="tab">Templates</a>  
+            <!-- Tab "Templates" -->  
+            <a href="#" class="tab">Usage</a>  
+            <!-- Tab "Usage" -->  
+        </div>  
+
+        <div class="content">  
+            <!-- Vùng nội dung chính -->  
+            <div class="search-bar">  
+                <!-- Thanh tìm kiếm -->  
+                <i class="fas fa-search"></i>  
+                <!-- Biểu tượng tìm kiếm -->  
+                <input type="text" placeholder="Search by email address, phone number, or user UID">  
+                <!-- Ô nhập liệu tìm kiếm -->  
+                <button class="add-user-button">Add user</button>  
+                <!-- Nút "Add user" -->  
+                <i class="fas fa-sync-alt"></i>  
+                <!-- Biểu tượng làm mới -->  
+            </div>  
+
+            <div class="no-users">  
+                <!-- Hiển thị thông báo nếu không có người dùng -->  
+                No users for this project yet  
+            </div>  
+        </div>  
+    </div>  
+</body>  
+</html>  

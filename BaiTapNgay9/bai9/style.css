@@ -1,0 +1,107 @@
+/* CSS Reset - Đặt lại các kiểu dáng mặc định của trình duyệt để đảm bảo tính nhất quán */  
+body, h1, h2, p, ul, li {  
+    margin: 0; /* Loại bỏ lề mặc định */  
+    padding: 0; /* Loại bỏ đệm mặc định */  
+    border: 0; /* Loại bỏ đường viền mặc định */  
+    font-size: 100%; /* Đặt kích thước phông chữ về 100% so với kích thước mặc định */  
+    font: inherit; /* Kế thừa phông chữ từ phần tử cha */  
+    vertical-align: baseline; /* Căn chỉnh các phần tử theo đường cơ sở */  
+}  
+
+/* Kiểu dáng cho phần tử body */  
+body {  
+    font-family: Arial, sans-serif; /* Chọn phông chữ Arial hoặc sans-serif nếu Arial không khả dụng */  
+    line-height: 1.6; /* Đặt khoảng cách giữa các dòng là 1.6 lần kích thước phông chữ */  
+    background-color: #f4f4f4; /* Đặt màu nền là màu xám nhạt */  
+    color: #333; /* Đặt màu chữ là màu xám đậm */  
+}  
+
+/* Kiểu dáng cho vùng chứa chính */  
+.container {  
+    width: 80%; /* Đặt chiều rộng của vùng chứa là 80% chiều rộng của phần tử cha */  
+    margin: auto; /* Căn giữa vùng chứa theo chiều ngang */  
+    overflow: hidden; /* Ẩn bất kỳ nội dung nào tràn ra khỏi vùng chứa */  
+}  
+
+/* Kiểu dáng cho phần hero (tiêu đề lớn) */  
+.hero {  
+    background: url('1.png') no-repeat center center/cover; /* Đặt hình nền, không lặp lại, căn giữa và co giãn để bao phủ toàn bộ vùng */  
+    color: #fff; /* Đặt màu chữ là màu trắng */  
+    text-align: left; /* Căn chỉnh văn bản sang trái */  
+    padding: 100px 0; /* Đặt đệm trên và dưới là 100px, trái và phải là 0 */  
+    margin-bottom: 20px; /* Đặt lề dưới là 20px */  
+}  
+
+.hero h1 {  
+    font-size: 2.5em; /* Đặt kích thước phông chữ là 2.5 lần kích thước phông chữ mặc định */  
+    margin-bottom: 10px; /* Đặt lề dưới là 10px */  
+}  
+
+.hero p {  
+    font-size: 1.2em; /* Đặt kích thước phông chữ là 1.2 lần kích thước phông chữ mặc định */  
+}  
+
+/* Kiểu dáng cho lưới các bài viết */  
+.articles-grid {  
+    display: grid; /* Sử dụng lưới để bố cục các bài viết */  
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Tạo các cột có chiều rộng tối thiểu là 300px và tự động điều chỉnh để phù hợp với vùng chứa */  
+    gap: 20px; /* Đặt khoảng cách giữa các ô lưới là 20px */  
+}  
+
+/* Kiểu dáng cho mỗi bài viết */  
+.article {  
+    margin-bottom: 0; /* Loại bỏ lề dưới để loại bỏ khoảng trắng không mong muốn */  
+}  
+
+.article img {  
+    display: block; /* Đảm bảo hình ảnh là một khối để loại bỏ khoảng trắng không mong muốn */  
+    margin-bottom: 0; /* Loại bỏ lề dưới để loại bỏ khoảng trắng không mong muốn */  
+    width: 100%; /* Đặt chiều rộng của hình ảnh là 100% chiều rộng của phần tử cha */  
+    height: 100%; /* Đặt chiều cao của hình ảnh là 100% chiều cao của phần tử cha */  
+}  
+
+.article-content {  
+    padding-bottom: 0; /* Loại bỏ đệm dưới để loại bỏ khoảng trắng không mong muốn */  
+}  
+
+.article h2 {  
+    font-size: 1.5em; /* Đặt kích thước phông chữ là 1.5 lần kích thước phông chữ mặc định */  
+    margin-bottom: 10px; /* Đặt lề dưới là 10px */  
+    color: #333; /* Đặt màu chữ là màu xám đậm */  
+}  
+
+.article p {  
+    font-size: 1em; /* Đặt kích thước phông chữ là kích thước phông chữ mặc định */  
+    color: #666; /* Đặt màu chữ là màu xám nhạt */  
+}  
+
+/* Kiểu dáng đặc biệt cho phần đăng ký */  
+.signup-article {  
+    background-color: #8B0000; /* Đặt màu nền là màu đỏ sẫm */  
+    color: #fff; /* Đặt màu chữ là màu trắng */  
+    text-align: center; /* Căn giữa văn bản */  
+    padding: 30px 20px; /* Đặt đệm trên và dưới là 30px, trái và phải là 20px */  
+}  
+
+.signup-article p {  
+    font-size: 1.2em; /* Đặt kích thước phông chữ là 1.2 lần kích thước phông chữ mặc định */  
+    margin-bottom: 20px; /* Đặt lề dưới là 20px */  
+}  
+
+.signup-article input[type="text"] {  
+    width: 70%; /* Đặt chiều rộng của ô nhập liệu là 70% chiều rộng của phần tử cha */  
+    padding: 10px; /* Đặt đệm là 10px */  
+    margin-bottom: 10px; /* Đặt lề dưới là 10px */  
+    border: none; /* Loại bỏ đường viền */  
+    border-radius: 5px; /* Bo tròn góc */  
+}  
+
+.signup-article button {  
+    background-color: #fff; /* Đặt màu nền là màu trắng */  
+    color: #8B0000; /* Đặt màu chữ là màu đỏ sẫm */  
+    border: none; /* Loại bỏ đường viền */  
+    padding: 10px 20px; /* Đặt đệm trên và dưới là 10px, trái và phải là 20px */  
+    border-radius: 5px; /* Bo tròn góc */  
+    cursor: pointer; /* Thay đổi con trỏ thành hình bàn tay khi di chuột qua */  
+    font-size: 1em; /* Đặt kích thước phông chữ là kích thước phông chữ mặc định */  
+}  
