@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .content {
+    background-color: lightgrey;
+    padding: 20px;
+    order: 2; /* Mặc định đặt thứ tự cho content là 2 */
+  }
+  
+  .sign-up {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    order: 3; /* Đặt thứ tự cho sign up là 3 */
+    flex: 1;
+    margin: 5px;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    order: 1; /* Đặt thứ tự cho features là 1 */
+  }
+  
+  /* Cài đặt cho từng feature */
+  .feature {
+    background-color: orange;
+    padding: 20px;
+    flex: 1;
+    margin: 5px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 767px) {
+    .features {
+      flex-direction: column; /* Dành cho Mobile */
+    }
+  
+    .feature {
+      margin: 5px 0; /* Thay đổi margin cho mobile */
+    }
+  
+    .content {
+      order: 2; /* Di chuyển content lên trên cùng */
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .features {
+      justify-content: space-around; /* Dành cho Tablet */
+    }
+  
+    .feature {
+      flex: 0 1 45%; /* Hai feature trên một hàng */
+    }
+  
+    .content {
+      order: 1; /* Đặt content lên trên cùng khi tablet */
+    }
+  
+    .sign-up {
+      order: 1; /* Di chuyển sign up lên trên cùng để gộp với features */
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .features {
+      justify-content: space-between; /* Dành cho Desktop */
+    }
+  
+    .feature {
+      flex: 1;
+      width: 40%;
+    }
+  
+    .sign-up {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,85 @@
+* {  
+    box-sizing: border-box;  
+}  
+
+body {  
+    margin: 0;  
+    padding: 0;  
+}  
+
+.container {  
+    padding: 10px;  
+}  
+
+/* Phần tử chính */  
+.item1 {  
+    width: 100%;  
+    height: 200px;  
+    background-color: #8e44ad;  
+}  
+
+.item2 {  
+    margin: 5px;  
+    width: calc(25% - 10px); /* 4 cột khi lớn hơn tablet */  
+    height: 100px;  
+    background-color: #b96cd8;  
+}  
+
+.item3 {  
+    margin: 5px;  
+    width: calc(50% - 10px); /* 2 cột */  
+    height: 200px;  
+    background-color: #fd00f5;  
+}  
+
+.item4 {  
+    width: 100%;  
+    height: 200px;  
+    background-color: #ef9ecc;  
+}  
+
+/* Các phần tử chính */  
+.main1 {  
+    display: flex;  
+    flex-wrap: wrap; /* Cho phép ngắt dòng */  
+}  
+
+.main2 {  
+    display: flex;  
+    flex-wrap: wrap; /* Ngắt dòng nếu cần */  
+}  
+
+/* Tablet (768px → 1200px) */  
+@media (min-width: 768px) and (max-width: 1199px) {  
+    .main1 {  
+        flex: 1 1 100%; /* 1 cột */  
+    }  
+
+    .item2 {  
+        width: calc(50% - 10px); /* 2 cột */  
+    }  
+
+    .main2 {  
+        flex-direction: column; /* Duy trì cột */  
+    }  
+    .item3{
+        width: 100%;
+    }
+}  
+
+/* Mobile (≤ 768px) */  
+@media (max-width: 767px) {  
+    .main1 {  
+        flex-direction: column; /* 1 cột */  
+    }  
+    .item2 {  
+        width: 100%; /* 1 cột */  
+    }  
+    .main2 {  
+        width: 100%;  
+        flex-direction: column; /* Duy trì dạng cột */  
+    }  
+    .item3{
+        width: 100%;
+    }
+}  
