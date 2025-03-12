@@ -1,0 +1,44 @@
+.body{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: rgb(199, 196, 196);
+    justify-content: space-between;
+    align-items: center;
+}
+    .logo{
+        margin-left: 10%;
+    }
+
+     .logo p{
+        font-family: "Great Vibes", cursive;
+        font-size: 30px;
+    }
+
+    .main{
+        display: flex;
+    }
+        .main a{
+            margin: 0 20px;
+            color: rgb(65, 64, 64);
+            text-decoration: none;
+        }
+    .search{
+        margin-right: 5%;
+    }
+        .search button{
+            color: aliceblue;
+            background-color: rgb(121, 118, 118);
+            height: 30px;
+            width: 90px;
+            border: 0;
+        }
+
+
+

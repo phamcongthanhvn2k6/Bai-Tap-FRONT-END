@@ -1,0 +1,35 @@
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+    h1 {
+        font-family:Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        width: 300px;
+        height: 150px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(185, 183, 183);
+    }
+
+    img{
+        width: 100%;
+        height: 54%;
+        border-radius: 5px;
+    }
+    
+    .anh2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .anh4{
+        display: flex;
+        flex-direction: column-reverse;
+    }
