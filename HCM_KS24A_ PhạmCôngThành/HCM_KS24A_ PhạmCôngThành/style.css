@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+.menu a {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.resume .resume1 {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    height: auto;
+    padding: 1.4;
+}
+
+.content {
+    width: 400px;
+}
+
+.chu {  
+    margin: 10px 0;  
+    width: 100%; /* Cung cấp chiều rộng đầy đủ cho chu */  
+    font-size: 40px; /* Tăng cỡ chữ cho phần giới thiệu */  
+}  
+
+.indam {
+    font-weight: bold;
+}
+
+.box {  
+    margin: 20px 0;  
+    font-size: 18px; /* Tăng cỡ chữ cho đoạn mô tả */  
+    line-height: 1.5; /* Giãn cách giữa các dòng */  
+}  
+
+.anh {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.anh1{
+    background-color: #000;
+    border: 4px solic rgb(255, 255, 255);
+}
+
+.anh1{
+    background-color: #ffffff;
+    border: 4px solic black;
+}
+.anh img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5%;
+}
+
+.img1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.myskill, .myexperience {
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 40px;
+}
+
+.myskill span, .myexperience span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container2 {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.anh21 {
+    text-align: center;
+}
+
+.anh21 img {
+    width: 50px;
+    height: 50px;
+}
+
+.myexperience .main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title i {
+    font-size: 24px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .logo1 {
+    display: flex;
+    margin-left: 5%;
+}
+
+.logo2{
+    margin-right: 5%;
+}
+
+footer .logo1 img {
+    width: 30px;
+    height: auto;
+}
