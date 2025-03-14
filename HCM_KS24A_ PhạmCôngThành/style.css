@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+a{
+    padding: 20px;
+    text-decoration: none;
+    font-family: Sora;
+    color: black;
+    font-size: 25px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.resume{
+    margin-right: 5%;
+}
+
+.resume1{
+    background-color: black;
+    color: aliceblue;
+    width: 150%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+main1{
+    width: 100%;
+}
+
+
+
+.img1{
+    position: absolute;
+    right: 10%;
+    width: 50%;    
+}
+
+.anh{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    position: absolute;
+    left: 10%;
+    top: 85%;
+}
+
+.anh1{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.anh2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: auto;
+    border-radius: 5%;
+    border: 4px solid black;
+}
+
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.anh21{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo1{
+    margin-left: 10%;
+    color: aliceblue;
+}
