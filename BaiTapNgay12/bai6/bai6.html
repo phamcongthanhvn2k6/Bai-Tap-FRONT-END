@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Menu</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .pricing-option {
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .highlight {
+            background-color: #ffecb3;
+        }
+        .pricing-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .pricing-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 align="center">Mèn Mén</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="pricing-option">
+                    <h3>Loại Vip3</h3>
+                    <p>$9.99/kg</p>
+                    <button class="pricing-button">Chọn gói</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="pricing-option highlight">
+                    <h3>Loại Vip2</h3>
+                    <p>$19.99/kg</p>
+                    <button class="pricing-button">Chọn gói</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="pricing-option">
+                    <h3>Loại Vip1</h3>
+                    <p>$29.99/kg</p>
+                    <button class="pricing-button">Chọn gói</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
