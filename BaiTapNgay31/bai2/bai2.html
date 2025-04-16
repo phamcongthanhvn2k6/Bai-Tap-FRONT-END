@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyển Đổi Nền</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            transition: all 0.3s ease; /* Hiệu ứng chuyển đổi */
+        }
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+        .light-mode {
+            background-color: white;
+            color: black;
+        }
+        button {
+            margin: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body class="light-mode">
+    <div id="hienthi">
+        <h1>Nền Đen / Nền Trắng</h1>
+        <p>Bấm Nút Để Thay Đổi Nền</p>
+        <button id="toggle">Chuyển Sang Nền Đen</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

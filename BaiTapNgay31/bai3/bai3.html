@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Background Color</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            transition: all 0.3s ease; /* Hiệu ứng chuyển đổi */
+        }
+        
+        .blue-mode {
+            background-color: blue;
+            color: white;
+        }
+        .red-mode {
+            background-color: red;
+            color: white;
+        }
+        .purple-mode {
+            background-color: purple;
+            color: white;
+        }
+        button {
+            margin: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Change Background Color</h1>
+        <p>Click the buttons below to change the background color:</p>
+        <div>
+            <button id="blueButton">Xanh</button>
+            <button id="redButton">Đỏ</button>
+            <button id="purpleButton">Tím</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

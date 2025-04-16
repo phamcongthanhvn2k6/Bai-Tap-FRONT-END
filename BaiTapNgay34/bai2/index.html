@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        button {
+            cursor: pointer;
+            padding: 5px 10px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quản lý đầu việc</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nội dung</th>
+                <th>Ngày hết hạn</th>
+                <th>Trạng thái</th>
+                <th>Người được giao</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody id="task-table-body"></tbody>
+    </table>
+    <div>
+        <input type="text" id="task-content" placeholder="Nội dung">
+        <input type="date" id="task-due-date">
+        <input type="text" id="task-assigned-to" placeholder="Người được giao">
+        <select id="task-status">
+            <option value="Pending">Pending</option>
+            <option value="Completed">Completed</option>
+        </select>
+        <button id="create-task-btn">Thêm mới</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
