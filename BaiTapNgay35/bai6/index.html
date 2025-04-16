@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Danh Mục</title>
+    <style>
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .active { color: green; font-weight: bold; }
+        .inactive { color: red; font-weight: bold; }
+        button { padding: 5px 10px; margin: 2px; }
+        .actions button { margin-right: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Quản Lý Danh Mục</h1>
+    <div>
+        <label for="name">Tên Danh Mục</label>
+        <input id="name" type="text" placeholder="Nhập Tên Danh Mục">
+        <label for="status">Trạng Thái</label>
+        <select id="status">
+            <option value="active">Hoạt Động</option>
+            <option value="inactive">Không Hoạt Động</option>
+        </select>
+        <button onclick="addCategory()">Thêm</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Mã Danh Mục</th>
+                <th>Tên Danh Mục</th>
+                <th>Trạng Thái</th>
+                <th>Chức Năng</th>
+            </tr>
+        </thead>
+        <tbody id="category-list"></tbody>
+    </table>
+
+    <script src="main.js"></script>
+</body>
+</html>

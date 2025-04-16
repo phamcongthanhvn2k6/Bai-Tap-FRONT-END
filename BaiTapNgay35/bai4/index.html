@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Nhân Viên</title>
+    <style>
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .pagination { margin-top: 10px; text-align: center; }
+        .pagination button { margin: 0 5px; padding: 5px 10px; }
+    </style>
+</head>
+<body>
+    <h1>Quản Lý Nhân Viên</h1>
+    <div>
+        <label for="name">Nhập Tên Nhân Viên</label>
+        <input id="name" type="text" placeholder="Nhập Tên Nhân Viên">
+        <label for="role">Nhập Chức Vụ</label>
+        <input id="role" type="text" placeholder="Nhập Chức Vụ">
+        <button onclick="addEmployee()">Thêm Nhân Viên</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Tên</th>
+                <th>Chức Vụ</th>
+                <th>Thao Tác</th>
+            </tr>
+        </thead>
+        <tbody id="employee-list">
+        </tbody>
+    </table>
+
+    <div class="pagination" id="pagination"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
